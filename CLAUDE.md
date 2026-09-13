@@ -10,7 +10,7 @@ Boutique hotel website. Read this before making changes.
 - **Founder / host:** Abhishek Jain
 - **Opening:** Construction complete March 2027; bookings open from 1 April 2027
 - **Domain:** thewhitechapter.in (owned; `.com` was unavailable)
-- **Email:** hello@thewhitechapter.in
+- **Email:** thewhitechapterhotel@gmail.com
 
 12 rooms in two categories:
 
