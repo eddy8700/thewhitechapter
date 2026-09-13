@@ -77,7 +77,7 @@ section { margin-bottom: 80px; }
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   gap: 7px;
   padding: 20px;
-  padding-bottom: 56px;
+  padding-bottom: 68px;
 }
 .card.front::before {
   content: '';
@@ -123,6 +123,14 @@ section { margin-bottom: 80px; }
   color: var(--ember-soft);
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
+}
+.card.front .front-email {
+  grid-column: 1 / -1;
+  font-family: 'Manrope', sans-serif;
+  font-size: 8px; letter-spacing: 0.02em;
+  color: var(--cream);
+  white-space: nowrap;
+  margin-top: 2px;
 }
 .card.front .tagline {
   font-family: 'Cormorant Garamond', serif;
@@ -252,6 +260,7 @@ section { margin-bottom: 80px; }
           <div class="front-contacts">
             <span class="front-name">Abhishek</span><span class="front-phone">+91-9818807711</span>
             <span class="front-name">Aditya</span><span class="front-phone">+91-9015513515</span>
+            <span class="front-email">thewhitechapterhotel@gmail.com</span>
           </div>
         </div>
         <div class="card-label">Front</div>
@@ -266,7 +275,6 @@ section { margin-bottom: 80px; }
           <div class="back-details">
             <div class="row"><span class="label">◇</span><span>+91 98188 07711</span></div>
             <div class="row"><span class="label">◇</span><span>Aditya &mdash; +91 90155 13515</span></div>
-            <div class="row"><span class="label">◇</span><span>thewhitechapterhotel@gmail.com</span></div>
             <div class="row"><span class="label">◇</span><span>Village Gondhla, near Sissu<br/>Lahaul &amp; Spiti, Himachal Pradesh</span></div>
           </div>
           <div class="back-footer">
