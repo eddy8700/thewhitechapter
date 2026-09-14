@@ -7,7 +7,7 @@ Boutique hotel website. Read this before making changes.
 - **Name:** The White Chapter
 - **Tagline:** A new chapter in the mountains
 - **Location:** Village Gondhla, near Sissu, Lahaul & Spiti, Himachal Pradesh, India — 10,300 ft. Gondhla is the precise village (used for the address); "Sissu" stays in marketing copy as the more recognizable nearby name. Sissu Waterfall is a ~20-minute drive away, not walking distance.
-- **Founder / host:** Abhishek Jain
+- **Founders / hosts:** Abhishek Jain & Aditya Gupta
 - **Opening:** Construction complete March 2027; bookings open from 1 April 2027
 - **Domain:** thewhitechapter.in (owned; `.com` was unavailable)
 - **Email:** thewhitechapterhotel@gmail.com
