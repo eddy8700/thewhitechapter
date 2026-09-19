@@ -768,6 +768,10 @@
     display: block;
     scroll-snap-align: start;
   }
+  .carousel-track picture img {
+    object-fit: contain;
+    background: var(--forest-deep);
+  }
   .carousel-arrow {
     position: absolute; top: 50%;
     transform: translateY(-50%);
@@ -1398,11 +1402,11 @@
           <div class="carousel-track">
             <picture>
               <source type="image/webp" srcset="images/dining/fir-and-flame-cafe-a-400.webp 400w, images/dining/fir-and-flame-cafe-a-800.webp 800w, images/dining/fir-and-flame-cafe-a-1600.webp 1600w" sizes="(max-width: 900px) 90vw, 450px" />
-              <img src="images/dining/fir-and-flame-cafe-a-800.jpg" srcset="images/dining/fir-and-flame-cafe-a-400.jpg 400w, images/dining/fir-and-flame-cafe-a-800.jpg 800w, images/dining/fir-and-flame-cafe-a-1600.jpg 1600w" sizes="(max-width: 900px) 90vw, 450px" alt="The Fir & Flame Café — arched wall niches" loading="lazy" width="736" height="736" />
+              <img src="images/dining/fir-and-flame-cafe-a-800.jpg" srcset="images/dining/fir-and-flame-cafe-a-400.jpg 400w, images/dining/fir-and-flame-cafe-a-800.jpg 800w, images/dining/fir-and-flame-cafe-a-1600.jpg 1600w" sizes="(max-width: 900px) 90vw, 450px" alt="The Fir & Flame Café — arched wall niches" loading="lazy" width="736" height="981" />
             </picture>
             <picture>
               <source type="image/webp" srcset="images/dining/fir-and-flame-cafe-b-400.webp 400w, images/dining/fir-and-flame-cafe-b-800.webp 800w, images/dining/fir-and-flame-cafe-b-1600.webp 1600w" sizes="(max-width: 900px) 90vw, 450px" />
-              <img src="images/dining/fir-and-flame-cafe-b-800.jpg" srcset="images/dining/fir-and-flame-cafe-b-400.jpg 400w, images/dining/fir-and-flame-cafe-b-800.jpg 800w, images/dining/fir-and-flame-cafe-b-1600.jpg 1600w" sizes="(max-width: 900px) 90vw, 450px" alt="The Fir & Flame Café — woven ceiling installation" loading="lazy" width="596" height="596" />
+              <img src="images/dining/fir-and-flame-cafe-b-800.jpg" srcset="images/dining/fir-and-flame-cafe-b-400.jpg 400w, images/dining/fir-and-flame-cafe-b-800.jpg 800w, images/dining/fir-and-flame-cafe-b-1600.jpg 1600w" sizes="(max-width: 900px) 90vw, 450px" alt="The Fir & Flame Café — woven ceiling installation" loading="lazy" width="738" height="596" />
             </picture>
           </div>
           <button class="carousel-arrow prev" aria-label="Previous photo" onclick="this.closest('.carousel').querySelector('.carousel-track').scrollBy({left:-this.closest('.carousel').querySelector('.carousel-track').clientWidth,behavior:'smooth'})">&#8249;</button>
